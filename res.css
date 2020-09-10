@@ -1,0 +1,476 @@
+@media only screen and (max-width: 900px){
+    .list1-nav{
+        display: none;
+    }
+    .main-box h1{
+        font-size: 55px;
+    }
+    .main-box{
+        position: absolute;
+        color: #fff;
+        margin: 250px 18%;
+    }
+}
+
+@media only screen and (max-width: 760px){
+    .list2-nav{
+        display: none;
+    }
+    .sticky .burger{
+        display: block;
+        margin-right: -25px;
+    }
+    .sticky .burger button hr{
+        color: black;
+        margin-right: -25px;
+    }
+    .sticky .hide{
+        display: none;
+    }
+    .burger{
+        display: block;
+        margin-right: -25px;
+    }
+    .burger button hr{
+        width: 20px;
+        color: white;
+        border: 1px solid;
+        margin-top: 5px;
+    }
+    .burger button{
+        background: transparent;
+        outline: 0;
+        border: none;
+        cursor: pointer;
+    }
+    .main-box h1{
+        font-size: 50px;
+    }
+    .main-box{
+        position: absolute;
+        color: #fff;
+        margin: 250px 10%;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .search p{
+        padding: 20px 20px;
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+        width: 15%;
+    }    
+    
+    .search h3{
+        display: none;
+    }
+    
+    .search input{
+        border: none;
+        width: 90%;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .search{
+        display: flex;
+        background: white;
+        color: black;
+        height: 65px;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .main-box{
+        position: absolute;
+        color: #fff;
+        margin: 80px 2%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .main-box h1{
+        font-size: 30px;
+    } 
+    .main-box h2{
+        font-size: 15px;
+    }
+    .main-box{
+        position: absolute;
+        color: #fff;
+        margin: 100px 2%;
+    }
+    .search{
+        display: flex;
+        background: white;
+        color: black;
+        height: 55px;
+        border-radius: 5px 5px 5px 5px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .off {
+        background: black;
+        width: 100%;
+        margin: auto;
+        margin-top: 110px;
+        border-radius: 10px;
+        padding: 15px 32px;
+        font-family: math;
+        text-transform: uppercase;
+        display: flex;
+    }
+    
+}
+
+@media only screen and (max-width: 770px){
+    .banner img{
+        height: 100vh;
+    }
+    .banner{
+        height: 100vh;
+    }
+    .main-box{
+        position: absolute;
+        color: #fff;
+        margin: 150px 5%;
+    }
+    .box-2{
+        margin: 70px 70px 35px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .banner img{
+        width: 100%;
+        height: 45vh;
+    }
+    .banner{
+        padding-top: 48vh;
+        height: 93vh;
+    }
+    .box-2{
+        margin: 50px 35px 35px;
+    }
+    .box-2 h1{
+        font-size: 28px;
+    }
+    .box-2 p{
+        font-size: 15px;
+    }
+    .meet h1{
+        font-size: 28px;
+    }
+    .meet p{
+        font-size: 15px;
+    }
+    .meet1 h1{
+        font-size: 28px;
+    }
+    .att h1{
+        font-size: 28px;
+    }
+    .att p{
+        font-size: 15px;
+    }
+    .home2 h1{
+        font-size: 28px;
+    }
+    .box7{
+        display: block;
+        margin: 0;
+        padding: 0px 30px;
+
+    }
+    .last2{
+        width: 100%;
+        margin: 0;
+        padding-top: 30px;
+    }
+    .last2 img{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .last2 p{
+        width: 90%;
+        padding-top: 30px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1125px){
+    .each{
+        height: 280px;
+        width: 30%;
+        display: block;
+        margin-top: 40px;
+        margin-right: 24px;
+        border-radius: 6px;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .each{
+        height: 280px;
+        width: 45%;
+        display: block;
+        margin-top: 40px;
+        margin-right: 24px;
+        border-radius: 6px;
+    }
+}
+
+@media only screen and (max-width: 760px){
+    .all{
+        overflow-x: auto;
+        display: flex;
+        flex-direction: row;
+        box-sizing: unset;
+        position: relative;
+        flex-wrap: nowrap;
+        margin-right: 30px;
+    }
+    .all::-webkit-scrollbar{
+        width: 0;
+    }
+    .photo{
+        width: 230px;
+    }
+    .photos{
+        width: 230px;
+    }
+    .each{
+        cursor: pointer;
+    }
+    .foot0{
+        display: block;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 10%;
+    }
+    .foot1{
+        margin-bottom: 50px;
+    }
+    .foot2{
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .photo{
+        width: 200px;
+    }
+    .photos{
+        width: 200px;
+    }
+    .box-3 {
+        margin: 50px 0 0 20px;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .photo{
+        width: 150px;
+    }
+    .photos{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .photo{
+        width: 100px;
+    }
+    .photos{
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .btns{
+        overflow-x: auto;
+        display: flex;
+        flex-direction: row;
+        box-sizing: unset;
+        position: relative;
+        flex-wrap: nowrap;
+        margin-right: 30px;
+    }
+    .btns::-webkit-scrollbar{
+        width: 0;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .box{
+        display: block;
+    }
+    .main-box1 {
+        margin: 29px 0px 0 0;
+        width: 100%;
+        display: flex;
+    }
+    .one1{
+        display: grid;
+    }
+    .one{
+        width: 100%;
+    }
+    .one img {
+        height: 80px;
+        margin: 10% 45%;
+    }
+    .one p {
+        text-align: center;
+        justify-content: center;
+        padding: 10px 60px;
+        font-size: 20px;
+        color: rgb(36, 36, 36);
+    }
+    .home5{
+        display: none;
+    }
+    .home1{
+        width: 100%;
+    }
+    .home9{
+        width: 150px;
+    }
+    .box7{
+        display: block;
+        margin: 0;
+        padding: 0px 30px;
+    }
+    .last2 img {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .last2 p {
+        width: 90%;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .last2{
+        margin-top: 20px;
+        width: 90%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .desc p{
+        display: none;
+    }
+    .icon img {
+        height: 40px;
+    }
+    .desc h3{
+        margin-top: 10px;
+    }
+    .arrow {
+        display: inline;
+        position: absolute;
+        right: 5%;
+        background: transparent;
+        border: none;
+        outline: 0;
+        cursor: pointer;
+        font-weight: 800;
+    }
+    .one1{
+        position: relative;
+        top: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        height: inherit;
+    }
+    .one img {
+        height: 60px;
+        margin: 10% 45%;
+    }
+    .one p {
+        text-align: center;
+        justify-content: center;
+        padding: 10px 60px;
+        font-size: 16px;
+        color: rgb(36, 36, 36);
+    }
+    .one h3{
+        font-size: 20px;
+    }
+    .box-5 {
+        margin: 50px 20px 0 40px;
+    }
+    .line {
+        float: left;
+        margin-right: 6px;
+    }
+    .line2 {
+        width: 100%;
+        height: 100%;
+        margin-top: 6px;
+        border-radius: 4px;
+        float: right;
+    }
+    .line3 {
+        width: 100%;
+        height: 100%;
+        margin-top: 8px;
+        border-radius: 4px;
+        float: right;
+    }
+    .line5 {
+        width: 100%;
+        height: 100%;
+        margin-top: 6px;
+        border-radius: 4px;
+    }
+    .line6 {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+        border-radius: 4px;
+    }
+    .line7 {
+        width: 100%;
+        height: 100%;
+        margin-top: 6px;
+        border-radius: 4px;
+    }
+    .box-8{    
+    margin-top: 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .box8{
+        display: block;
+    }
+    .last1 h1{
+        margin-left: 50px;
+        margin-top: 40px;
+        box-sizing: border-box;
+    }
+    .last11{
+        position: relative;
+        left: 5%;
+        background-color: white;
+        width: 90%;
+        height: 500px;
+        margin-top: 27px;
+        border-radius: 6px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .last11{
+        position: relative;
+        left: 0;
+        top: 5vh;
+        width: 100%;
+        border-radius: 0;
+        height: 80vh;
+    }
+    .last1 h1{
+        font-size: 30px;
+    }
+}
